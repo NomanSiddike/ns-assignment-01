@@ -76,6 +76,57 @@
     margin-bottom: 45px;
 }
 
-.discount-greetings{
+.discount-greetings {
     margin-bottom: 120px;
+}
+
+/* Midnight Party Design */
+
+#party {
+    margin: 50px 50px;
+}
+
+.party-container {
+    background-image: url('..//resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 24px 0; */
+}
+
+.party-heading {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    text-align: center;
+    margin-top: 126px;
+
+}
+
+.party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    padding: 0 126px;
+}
+
+.button-1 {
+    /* margin-left: 160px; */
+    margin: 48px 100px 140px 160px;
+    /* color: #FFF; */
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.party-container-section-image {
+    margin:60px 160px 60px auto;
+
 }
