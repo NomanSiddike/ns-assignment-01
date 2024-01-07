@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+/* Generalized Design */
+
+* {
+    margin: 0;
+    padding: 0;
+    z font-family: 'Merriweather', serif;
+}
+
+.heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* Banner Design */
+#banner {
+    margin: 50px 50px;
+
+}
+
+.banner-container {
+    background-image: url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    padding: 190px 0;
+}
+
+.banner-sub-heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
