@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    z font-family: 'Merriweather', serif;
+    font-family: 'Merriweather', serif;
 }
 
 .heading {
@@ -23,7 +23,8 @@
 }
 
 .banner-container {
-    background-image: url('../resources/Banner\ Image.png');
+    /* background-image: url('../resources/Banner\ Image.png'); */
+    background: linear-gradient(80deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../resources/Banner\ Image.png");
     background-repeat: no-repeat;
     padding: 190px 0;
 }
@@ -87,7 +88,8 @@
 }
 
 .party-container {
-    background-image: url('..//resources/Vectorrr.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('..//resources/Vectorrr.png');
+    /* background-image: url('..//resources/Vectorrr.png'); */
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-around;
@@ -112,6 +114,7 @@
     font-weight: 400;
     line-height: 30px;
     margin-top: 24px;
+    margin-bottom: 50px;
     padding: 0 126px;
 }
 
@@ -124,6 +127,8 @@
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    color: white;
+
 }
 
 .party-container-section-image {
@@ -168,22 +173,73 @@
     padding-bottom: 50px;
 }
 
-.portfolio-image{
+.portfolio-image {
     display: flex;
     gap: 24px;
-    margin: 120px 0 ;
+    margin: 120px 0;
 }
 
 /* Newsletter Part Design */
 
-#newsletter{
+#newsletter {
     margin: 50px 50px;
+    /* width: 100%; */
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
 }
 
-.newsletter-contain{
+.newsletter-contain {
+    width: 100%;
+}
+
+.newsletter-2nd-heading {
+    text-align: center;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.newsletter-description {
+    text-align: center;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0 200px;
+    padding-bottom: 48px;
+}
+
+.newsletter-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+/* .form{
+    max-width: 700px;
+    margin-left: 200px;
+    display: flex;
+    width: 500px;
     
-    margin: 0px 550px 0 550px;
-    
+}
+
+#newsletter form input{
+    flex-grow: 1;
+} */
+
+form {
+    margin-left: 300px;
+    width: 5000px;
+}
+
+.form {
+    padding: 10px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+    margin-bottom: 50px;
 }
