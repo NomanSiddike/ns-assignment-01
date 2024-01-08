@@ -27,6 +27,7 @@
     background: linear-gradient(80deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../resources/Banner\ Image.png");
     background-repeat: no-repeat;
     padding: 190px 0;
+    border-radius: 16px;
 }
 
 .banner-sub-heading {
@@ -94,6 +95,7 @@
     display: flex;
     justify-content: space-around;
     /* padding: 24px 0; */
+    border-radius: 16px;
 }
 
 .party-heading {
@@ -242,4 +244,80 @@ form {
     background: #FFF;
     border: none;
     margin-bottom: 50px;
+}
+
+/* footer Design */
+#footer {
+    background: #070211;
+    /* margin-bottom: 1000px;
+    /* width: 1600px; */
+    height: 609px;
+    */ flex-shrink: 0;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+}
+
+.footer-address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 120px;
+    margin-left: 140px;
+    /* padding: 120px 800px 400px 140px; */
+    margin-bottom: 50px;
+}
+
+.footer-number,
+.footer-web {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-number {
+    margin-top: 120px;
+    margin-right: 250px;
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    margin: 0 140px;
+    margin-bottom: 40px;
+}
+
+.footer-social-media {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.footer-copyrigt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-2017 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 140px;
+}
+
+.footer-unsubscribe {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 140px;
 }
