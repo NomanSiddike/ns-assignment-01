@@ -127,6 +127,63 @@
 }
 
 .party-container-section-image {
-    margin:60px 160px 60px auto;
+    margin: 60px 160px 60px auto;
 
+}
+
+
+
+/* Portfolio Design */
+
+#portfolio {
+    margin: 50px 50px;
+}
+
+.portfolio-1st-heading {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.portfolio-2nd-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    padding: 0 330px 20px 0;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-right: 420px;
+    padding-bottom: 50px;
+}
+
+.portfolio-image{
+    display: flex;
+    gap: 24px;
+    margin: 120px 0 ;
+}
+
+/* Newsletter Part Design */
+
+#newsletter{
+    margin: 50px 50px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter-contain{
+    
+    margin: 0px 550px 0 550px;
+    
 }
