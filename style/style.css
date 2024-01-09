@@ -89,8 +89,7 @@
 }
 
 .party-container {
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('..//resources/Vectorrr.png');
-    /* background-image: url('..//resources/Vectorrr.png'); */
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-around;
@@ -130,6 +129,7 @@
     font-weight: 700;
     text-transform: uppercase;
     color: white;
+    cursor: pointer;
 
 }
 
@@ -176,6 +176,7 @@
     background: #F00;
     color: white;
     padding: 16px 32px;
+    cursor: pointer;
 
 }
 
@@ -252,7 +253,7 @@
 
 }
 
-.first-part{
+.first-part {
     text-align: center;
 }
 
@@ -270,7 +271,7 @@
     font-size: 72px;
     font-weight: 900;
     margin-bottom: 30px;
-    
+
 }
 
 .holiday {
@@ -280,34 +281,44 @@
     margin-top: 30px;
 }
 
-.function-des{
+.function-des {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
     padding: 0 200px;
+    margin-bottom: 50px;
 }
+
 /* .second-part{
     position: relative;
 } */
-.second-part-container{
+.second-part-container {
     display: flex;
     justify-content: space-between;
     position: relative;
 }
 
-.img-2{
+.img-2 {
     position: absolute;
     margin-left: 720px;
     margin-top: 90px;
 }
-.third-part{
+
+.img-3 {
+    z-index: -3;
+}
+
+.third-part {
     position: relative;
 }
-.third-part img{
-    position:absolute;
+
+.third-part img {
+    position: absolute;
     /* width: 400px; */
-   bottom: 25px;
+    bottom: 25px;
+    z-index: -1;
+    width: 100%
 }
 
 
@@ -353,7 +364,7 @@
 .portfolio-image {
     display: flex;
     gap: 24px;
-    margin-top: ;
+    margin-top:
 }
 
 /* Newsletter Part Design */
@@ -363,11 +374,12 @@
     /* width: 100%; */
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
+    padding-bottom: 100px;
 }
 
 .newsletter-contain {
     width: 100%;
-    
+
 }
 
 .newsletter-2nd-heading {
@@ -401,15 +413,15 @@
 form {
     display: flex;
     justify-content: center;
-   
+
 }
 
 
-.subs{
+.subs {
     padding: 20px 0px;
     border-radius: 0px 50px 50px 0px;
     padding: 0 50px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     background: #FF0000;
     border: none;
     margin-left: -20px;
@@ -419,7 +431,7 @@ form {
     padding: 20px 200px 20px 20px;
     border-radius: 50px;
     border: none;
-    background: #FFF;   
+    background: #FFF;
 }
 
 /* footer Design */
@@ -428,7 +440,7 @@ form {
     /* margin-bottom: 1000px;
     /* width: 1600px; */
     height: 609px;
-    */ flex-shrink: 0;
+
 }
 
 .footer-info {
@@ -464,8 +476,8 @@ form {
     margin-right: 250px;
 }
 
-hr {
-    background: rgba(255, 255, 255, 0.15);
+hr{
+    color: rgba(255, 255, 255, 0.15);
     margin: 0 140px;
     margin-bottom: 40px;
 }
@@ -477,7 +489,7 @@ hr {
     margin-bottom: 40px;
 }
 
-.footer-copyrigt {
+.footer-copyright {
     display: flex;
     justify-content: space-between;
 }
