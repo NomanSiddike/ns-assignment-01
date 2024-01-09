@@ -152,7 +152,7 @@
     margin-bottom: 50px;
 }
 
-span {
+.know {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -188,36 +188,37 @@ span {
 .offer-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 100px;
 }
 
 .offer-1st-column {
-    margin-top: 120px;
+    flex: 1;
 }
 
 .col-heading {
     color: #FF0000;
     font-family: Inter;
     font-size: 24px;
-    padding-bottom: 16px;
 }
 
 .col-main-heading {
     color: #070211;
     font-size: 48px;
-    padding-bottom: 22px;
 }
 
 .col-des {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    margin-right: 100px;
-    
+
 }
 
 .offer-2nd-column {
-    border-radius: 450px;
+    width: 500px;
+    border-radius: 50%;
     border: 15px solid #F00;
+    flex: 1;
 }
 
 .offer-2nd-column-img {
@@ -225,7 +226,7 @@ span {
 }
 
 .offer-3rd-column {
-    margin-top: 120px;
+    flex: 1;
 }
 
 .offer-3rd-heading {
@@ -242,6 +243,52 @@ span {
     margin-bottom: 40px;
 }
 
+
+/* Functional Part Design */
+
+#function {
+    margin: 50px 50px;
+
+}
+
+.first-part{
+    text-align: center;
+}
+
+.function-intro {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.function-heading {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    
+}
+
+.holiday {
+    color: #F00;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.function-des{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 200px;
+}
+
+
+
 /* Portfolio Design */
 
 #portfolio {
@@ -252,7 +299,6 @@ span {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     padding-bottom: 15px;
     margin-top: 120px;
@@ -299,6 +345,7 @@ span {
 
 .newsletter-contain {
     width: 100%;
+    
 }
 
 .newsletter-2nd-heading {
@@ -328,29 +375,32 @@ span {
     padding-bottom: 40px;
 }
 
-/* .form{
-    max-width: 700px;
-    margin-left: 200px;
-    display: flex;
-    width: 500px;
-    
-}
-
-#newsletter form input{
-    flex-grow: 1;
-} */
 
 form {
-    margin-left: 300px;
-    width: 5000px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.subs{
+    padding: 20px 0px;
+    border-radius: 0px 50px 50px 0px;
+    padding: 0 50px;
+    color:#FFFFFF;
+    background: #FF0000;
+    border: none;
+    margin-left: -20px;
 }
 
 .form {
-    padding: 10px;
+    padding: 20px 200px 20px 20px;
     border-radius: 50px;
-    background: #FFF;
     border: none;
-    margin-bottom: 50px;
+    background: #FFF;
+    
+    
+    
 }
 
 /* footer Design */
