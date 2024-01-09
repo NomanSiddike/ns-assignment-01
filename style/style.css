@@ -205,13 +205,14 @@
 .col-main-heading {
     color: #070211;
     font-size: 48px;
+    margin-top: 15px;
 }
 
 .col-des {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-
+    margin-top: 20px;
 }
 
 .offer-2nd-column {
@@ -286,7 +287,28 @@
     font-weight: 500;
     padding: 0 200px;
 }
+/* .second-part{
+    position: relative;
+} */
+.second-part-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
 
+.img-2{
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 90px;
+}
+.third-part{
+    position: relative;
+}
+.third-part img{
+    position:absolute;
+    /* width: 400px; */
+   bottom: 25px;
+}
 
 
 /* Portfolio Design */
@@ -397,10 +419,7 @@ form {
     padding: 20px 200px 20px 20px;
     border-radius: 50px;
     border: none;
-    background: #FFF;
-    
-    
-    
+    background: #FFF;   
 }
 
 /* footer Design */
