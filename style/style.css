@@ -34,7 +34,6 @@
     color: #FFF;
     text-align: center;
     font-size: 32px;
-    font-weight: 400;
 }
 
 /* discount part */
@@ -81,12 +80,6 @@
 .discount-greetings {
     margin-bottom: 120px;
 }
-
-
-/* Offer Part Design */
-
-
-
 
 
 /* Midnight Party Design */
@@ -155,6 +148,7 @@
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
+    padding-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -182,9 +176,71 @@ span {
     background: #F00;
     color: white;
     padding: 16px 32px;
+
+}
+
+/* Offer Part Design */
+
+#offer {
+    margin: 50px 50px;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-1st-column {
+    margin-top: 120px;
+}
+
+.col-heading {
+    color: #FF0000;
+    font-family: Inter;
+    font-size: 24px;
+    padding-bottom: 16px;
+}
+
+.col-main-heading {
+    color: #070211;
+    font-size: 48px;
+    padding-bottom: 22px;
+}
+
+.col-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    margin-right: 100px;
     
 }
 
+.offer-2nd-column {
+    border-radius: 450px;
+    border: 15px solid #F00;
+}
+
+.offer-2nd-column-img {
+    padding: 40px;
+}
+
+.offer-3rd-column {
+    margin-top: 120px;
+}
+
+.offer-3rd-heading {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.offer-3rd-column-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
 
 /* Portfolio Design */
 
